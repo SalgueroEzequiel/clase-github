@@ -42,7 +42,10 @@
   .nav li{
     list-style: none;
     padding: 0 15px;
-
+  }
+  .nav img{
+    height: 50px;
+    margin-top: 20px;
   }
 
   .presentacion { 
@@ -56,6 +59,7 @@
 }
 .presentacion img{
     max-height: 500px;
+    border-radius: 15px;
 }
 .presentacion p{
     max-width: 400px;
