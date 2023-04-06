@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.grilla {  display: grid;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "barrita barrita barrita barrita barrita barrita"
+      "nav nav nav nav nav nav"
+      "presentacion presentacion presentacion presentacion presentacion presentacion"
+      "productos-destacados productos-destacados productos-destacados productos-destacados productos-destacados productos-destacados"
+      "footer footer footer footer footer footer";
+  }
+  
+  /* Barrita */
+  .barrita { 
+    grid-area: barrita; 
+    background-color: aquamarine;
+    color: blue;
+    height: 4vh;
+    text-align: center;
+    padding-top: 15px;
+}
+  .barrita span{
+    font-weight: bold;
+  }
+  
+  /* Nav */
+  .nav { 
+    grid-area: nav; 
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+}
+  .nav ul{
+    display: flex;
+    align-items: center;
+   } 
+  .nav li{
+    list-style: none;
+    padding: 0 15px;
+
+  }
+
+  .presentacion { grid-area: presentacion; }
+  
+  .productos-destacados { grid-area: productos-destacados; }
+  
+  .footer { grid-area: footer; }
+  
