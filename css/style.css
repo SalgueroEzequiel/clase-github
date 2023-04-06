@@ -48,7 +48,23 @@
 
   }
 
-  .presentacion { grid-area: presentacion; }
+  .presentacion { 
+    grid-area: presentacion; 
+    background-image: url("https://plus.unsplash.com/premium_photo-1675183556347-02f4377edd5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 75vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 150px;
+}
+.presentacion img{
+    max-height: 500px;
+}
+.presentacion p{
+    max-width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+}
   
   .productos-destacados { grid-area: productos-destacados; }
   
