@@ -72,6 +72,9 @@
   .productos-destacados { grid-area: productos-destacados; }
   
   .footer { grid-area: footer; }
+  .footer li{
+    color: darkred;
+  }
   
 @media (max-width: 600px){
     .grilla {display: grid;
